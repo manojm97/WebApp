@@ -1,3 +1,3 @@
-# react-qdzf3n
+# My site
 
 [My website ⚡️](https://manojm.dev/)
