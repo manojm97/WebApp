@@ -1,21 +1,58 @@
 {
-  "name": "react",
-  "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.6",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "reactjs-popup": "^2.0.5"
-  },
+  "name": "ManojPortfolio",
+  "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "baseui": "^9.109.0",
+    "bootstrap": "^4.6.0",
+    "fs": "0.0.1-security",
+    "glamor": "^2.20.40",
+    "gsap": "^3.10.4",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.4.3",
+    "react-cursor-custom": "^1.2.4",
+    "react-dom": "^16.8.0",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.2.0",
+    "react-ig-embed": "^2.0.21",
+    "react-is": "^17.0.1",
+    "react-pdf": "^5.4.0",
+    "react-reveal": "^1.2.2",
+    "react-rounded-image": "^2.0.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "reactide-config": "^1.0.2",
+    "styled-components": "^5.2.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7",
+    "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "@iconify/icons-logos": "^1.1.5",
+    "@iconify/react": "^1.1.3",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+
 }
